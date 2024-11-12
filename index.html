@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário ViaCEP</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/formBuilder@3.1.0/dist/form-builder.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/formBuilder@3.1.0/dist/form-builder.min.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>Formulário de Endereço</h1>
+
+    <div id="form-builder"></div>
+
+    <button id="submit-form">Enviar</button>
+  </div>
+
+  <div id="cep-info">
+    <h2>Informações do CEP</h2>
+    <p><strong>CEP:</strong> <span id="cep"></span></p>
+    <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+    <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+    <p><strong>Cidade:</strong> <span id="cidade"></span></p>
+    <p><strong>Estado:</strong> <span id="estado"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
